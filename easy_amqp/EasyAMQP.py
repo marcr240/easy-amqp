@@ -148,6 +148,8 @@ class EasyAMQP:
     def add_exchange(self, exchange: Exchange) -> None:
         self._topology_manager.add_exchange(exchange.name, exchange)
 
+    def add_binding(self, binding: Binding) -> None:
+        self._topology_manager.add_binding(binding)
 
     def run_in_thread(self) -> threading.Thread:
         return self._connection_manager.run_in_thread()
