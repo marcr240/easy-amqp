@@ -29,7 +29,7 @@ pip install easy-amqp
 
 ```python
 import pika
-from easyamqp import EasyAMQP
+from easy_amqp import EasyAMQP
 
 # Single connection parameter
 amqp = EasyAMQP(pika.ConnectionParameters('localhost'))
@@ -51,7 +51,7 @@ To get started, instantiate EasyAMQP with your RabbitMQ connection parameters.
 
 ```python
 import pika
-from easyamqp import EasyAMQP
+from easy_amqp import EasyAMQP
 
 # Single connection parameter
 amqp = EasyAMQP(pika.ConnectionParameters('localhost'))
@@ -120,7 +120,7 @@ rabbit.run()
 ### Declare by manually
 
 ```python
-from easy_amqp.EasyAMQP import EasyAMQP
+from easy_amqp import EasyAMQP
 from easy_amqp.models import Message, ExchangeType, Exchange, Queue, Binding
 from pika.connection import ConnectionParameters
 

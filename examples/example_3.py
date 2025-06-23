@@ -1,7 +1,7 @@
 import pika.channel
 import pika.connection
 import pika.exceptions
-from easy_amqp.EasyAMQP import EasyAMQP
+from easy_amqp import EasyAMQP
 from easy_amqp.models import Message
 from pika.connection import ConnectionParameters
 from typing import Union
