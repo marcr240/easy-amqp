@@ -1,6 +1,6 @@
 [project]
 name = "easy_amqp"
-version = "1.0.0"
+version = "0.0.0"
 description = "easy use of rabbitmq"
 readme = "README.md"
 requires-python = ">=3.11"
