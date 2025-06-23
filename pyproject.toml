@@ -22,6 +22,11 @@ classifiers = [ # Wichtige Metadaten für PyPI
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Communications"
 ]
+[project.urls]
+
+Homepage = "https://github.com/marcr240/easy-amqp"
+Repository = "https://github.com/marcr240/easy-amqp"
+
 [dependency-groups]
 dev = [
     "pytest>=8.4.0",
